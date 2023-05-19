@@ -7,11 +7,12 @@ import {
   Possabilty,
   WhatGPT3,
 } from './containers/index'
+import './App.css'
 
 function App() {
   return (
-    <>
-      <div className="gradient_bg">
+    <div className="App">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
@@ -23,7 +24,7 @@ function App() {
       <CTA />
       <Blog />
       <Footer />
-    </>
+    </div>
   )
 }
 
