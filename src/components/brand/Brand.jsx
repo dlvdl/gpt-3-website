@@ -33,6 +33,7 @@ const Wrapper = styled.section`
     flex-wrap: wrap;
     align-items: center;
     margin: 1rem;
+    gap: 1rem;
   }
 
   .gpt3__brand div {

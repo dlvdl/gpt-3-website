@@ -27,6 +27,8 @@ const Wrapper = styled.section`
     align-items: center;
     border-radius: 10px;
     gap: 1rem;
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
   }
 
   .gpt3__cta-content {
@@ -55,6 +57,18 @@ const Wrapper = styled.section`
     border-radius: 40px;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
   @media screen and (max-width: 650px) {
